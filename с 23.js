@@ -21,3 +21,34 @@ printMotto() */
 }
 
 saveEmail(); */
+
+
+
+
+/* const run = () => {
+    return 5;
+    return 10;
+};
+
+// Что будет выведено на экран?
+console.log(run()); */
+
+
+//Условие
+
+//Реализуйте функцию sayHurrayThreeTimes(), которая возвращает строку 'hurray! hurray! hurray!'.
+//const hurray = sayHurrayThreeTimes();
+//console.log(hurray); // => hurray! hurray! hurray!
+
+//Решение
+
+/* const sayHurrayThreeTimes = () => {
+    const sayHurrayThreeTimes = 'hurray! hurray! hurray!';
+    return sayHurrayThreeTimes
+
+}
+
+const hurray = sayHurrayThreeTimes()
+
+console.log(hurray)
+ */
