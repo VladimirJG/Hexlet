@@ -9,3 +9,15 @@
 }
 
 printMotto() */
+
+/* const saveEmail = () => {
+
+    const email = '  VlAdImI85@MAIL.Ru    '
+
+    const trimmedEmail = email.trim();
+    const lowEmail = trimmedEmail.toLowerCase();
+
+    console.log(lowEmail);
+}
+
+saveEmail(); */
