@@ -46,5 +46,17 @@ console.log(name.toUpperCase().toLowerCase()); */
 console.log(name.toUpperCase().toLowerCase().length.toString().length); */
 
 
-const text = 'When \t\n you play a \t\n game of thrones you win or you die.';
-console.log(text.slice(5, 15).trim().length)
+/* const text = 'When \t\n you play a \t\n game of thrones you win or you die.';
+console.log(text.slice(5, 15).trim().length) */
+
+/* // Определение функции
+// Определение не вызывает и не выполняет функцию
+// Мы лишь говорим, что теперь такая функция существует
+const showGreeting = () => {
+    // Внутри тела отступ 2 пробела для удобства чтения
+    const text = 'Hello, Hexlet!';
+    console.log(text);
+}
+
+// Вызов функции
+showGreeting(); // => "Hello, Hexlet!" */
