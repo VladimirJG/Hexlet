@@ -131,3 +131,21 @@ console.log(capitalize(name)); */
 console.log(isInternationalPhone('+79276644409'))
 console.log(isInternationalPhone('89276644409')) */
 //====================================================
+
+//29 Реализуйте функцию isLeapYear(), которая определяет, является ли год високосным или нет. 
+//Год будет високосным, если он кратен (то есть делится без остатка) 400 или он одновременно кратен 4 и 
+//не кратен 100.
+
+//------------------Решение 29-------------------
+
+/* const isLeapYear = (year) => year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
+console.log(isLeapYear(2000));
+console.log(isLeapYear(2002));
+console.log(isLeapYear(2010));
+console.log(isLeapYear(2016));
+console.log(isLeapYear(2018));
+console.log(isLeapYear(2020));
+console.log(isLeapYear(2022));
+console.log(isLeapYear(1900)); */
+
+//===============================================================
