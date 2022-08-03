@@ -115,7 +115,19 @@ console.log(getHiddenCard('1234567890123456')) */
 
 //Решение
 
-const capitalize = (word) => word.slice(0, 1).toUpperCase() + word.slice(1);
+/* const capitalize = (word) => word.slice(0, 1).toUpperCase() + word.slice(1);
 const name = 'aria';
-console.log(capitalize(name));
+console.log(capitalize(name)); */
 //-----------------------------------
+
+//==================================================================
+//28 Реализуйте функцию isInternationalPhone(), которая проверяет формат указанного телефона. Если телефон начинается с +, значит это международный формат.
+
+//isInternationalPhone('89602223423'); // false
+//isInternationalPhone('+79602223423'); // true
+
+//------------------Решение 28------------------
+/* const isInternationalPhone = (number) => number.slice(0, 1) === '+'
+console.log(isInternationalPhone('+79276644409'))
+console.log(isInternationalPhone('89276644409')) */
+//====================================================
