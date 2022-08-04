@@ -188,6 +188,23 @@ console.log(normalizeUrl('google.com'));
  */
 
 //===================================================================================
-const testScore = 10;
+/* const testScore = 10;
 const result = testScore < 10 ? 'bad' : 'good';
-console.log(result);
+console.log(result); */
+
+//=================================================================================
+
+const isEven = (num) => {
+    return num % 2 === 0;
+}
+
+// функция увеличивает полученное число num на 10
+const increaseNum = (num) => {
+    return num + 10;
+}
+
+const num = 6;
+
+const result = isEven(increaseNum(num) + 1) ? num + 1 : 1 - num;
+
+console.log(isEven(increaseNum(num) + 1))
