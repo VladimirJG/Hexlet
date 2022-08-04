@@ -174,7 +174,7 @@ console.log(getLetter(word, 1)); */
 
 //----------------------------Решение 31-----------------------------------------
 
-const normalizeUrl = (mail) => {
+/* const normalizeUrl = (mail) => {
     let mailWithHttp;
 
     if (mail.startsWith('https://')) {
@@ -185,7 +185,9 @@ const normalizeUrl = (mail) => {
     return mailWithHttp;
 }
 console.log(normalizeUrl('google.com'));
+ */
 
-
-/* const word = 'google.com'
-console.log(word.startsWith('go')) */
+//===================================================================================
+const testScore = 10;
+const result = testScore < 10 ? 'bad' : 'good';
+console.log(result);
