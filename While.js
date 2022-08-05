@@ -24,6 +24,7 @@ finished!
 printNumbers(-6) */
 
 // ===============Верное решение 34===============================
+
 const printNumbers = (number) => {
     let i = number;
 
@@ -35,3 +36,18 @@ const printNumbers = (number) => {
 
 }
 printNumbers(6);
+
+//======================Второй вариант (работает, на Hexlet не проверил)===============================
+
+
+/* const printNumbers = (number) => {
+    let i = number;
+
+    while (i >= 1) {
+        console.log(i);
+        i = i - 1;
+    }
+    console.log('finished!');
+
+}
+printNumbers(6); */
